@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+#xxx{
+    background: green;
+    display: block;
+}
+button{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.actions{
+    #brush{
+        display: none;
+    }
+    &.x{
+        #brush{
+            display: inline-block;
+        }
+        #eraser{
+            display: none;
+        }
+    }
+}
